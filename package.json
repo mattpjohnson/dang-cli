@@ -1,6 +1,6 @@
 {
   "name": "dang-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prompt before running dang(erous) commands",
   "main": "index.js",
   "bin": {
