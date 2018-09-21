@@ -13,6 +13,8 @@ function promptBeforeCallback(promptMessage, callback) {
     .then(answer => {
       if (answer === true) {
         callback()
+      } else {
+        process.exit(1)
       }
     })
 }
