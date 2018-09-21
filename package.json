@@ -1,0 +1,35 @@
+{
+  "name": "dang-cli",
+  "version": "0.1.0",
+  "description": "Prompt before running dang(erous) commands",
+  "main": "index.js",
+  "bin": {
+    "dang-cli": "cli.js"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["index.js", "cli.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpjohnson/dang-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "dangerous cli",
+    "prompt before running"
+  ],
+  "author": "Matt P. Johnson <matt@mattpjohnson.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattpjohnson/dang-cli/issues"
+  },
+  "homepage": "https://github.com/mattpjohnson/dang-cli#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "prompt-confirm": "^2.0.4"
+  }
+}
