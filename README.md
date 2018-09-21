@@ -15,14 +15,13 @@ Below is a sample package.json file that demonstrates the usage of dang-cli.
 
 ```json
 {
-  ...
   "scripts": {
     "deploy-dev": "echo Deploying to dev... No need to worry",
     "deploy-prod": "dang-cli 'Deploy to PRODUCTION?' echo Deploying to
 PRODUCTION..."
   }
-  ...
-}```
+}
+```
 
 The user will now be prompted before production deployments are run.
 
